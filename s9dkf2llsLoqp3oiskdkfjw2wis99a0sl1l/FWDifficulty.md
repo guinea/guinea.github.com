@@ -1,8 +1,8 @@
 # Difficulty in computer games
 
-How hard should my game be?  The obvious answer to this question is *easy to start and tough to finish*, but why? Why not make a game of uniform difficulty, or even a fiendishly difficult puzzler that eases off level by level as a reward for your perseverance?  Because it wouldn't be as much fun.
+How hard should my game be?  My game playing experience tells me *easy to start and tough to finish*, but why? Why not make a game of uniform difficulty, or even a fiendishly difficult puzzler that eases off level by level as a reward for your perseverance? or even a game with a slider at the top so the user can set their own difficulty level?  Because it wouldn't be as much fun.
 
-In game development, decisions regarding OpenGL, Audio Formats, or which scripting language to use, are optimisation problems.  Benchmark the alternatives and choose the best performing.  Decisions regarding gameplay want for the comforting advice of benchmark figures because you are effectively optimising for "fun", a quantity that is notoriously difficult to measure.
+Many game development decisions - decisions regarding OpenGL, Audio Formats, or which scripting language to use - are optimisation problems.  You can benchmark the alternatives and choose the best.  Decisions regarding gameplay want for the comforting advice of benchmark figures because you are effectively optimising for "fun", a quantity that is notoriously difficult to measure.
 
 Beta testing is the closest analogue of benchmarking for "fun", but unless you have time to beta test every gameplay decision, you will need to look to your own judgment for guidance. It is tempting to ask "what makes a game fun?", but the question is too vague to answer. A better question for a Game Developer is "what makes a player keep playing my game?".  For me the two key factors are:
 
