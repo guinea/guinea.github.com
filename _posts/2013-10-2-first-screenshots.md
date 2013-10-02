@@ -1,5 +1,5 @@
 ---
-title: First screenshots of *fork*
+title: First screenshots
 layout: post
 ---
 
