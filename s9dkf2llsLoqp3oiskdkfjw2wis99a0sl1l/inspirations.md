@@ -35,8 +35,3 @@ The tragedy with *Lunar Lander* is that no matter how skilfully you land you spa
 Clearly this isn't a game, but the *Flat UI* design sensibility is a big part of *Fork*.  For two tecchie types starting out on a game the most intimidating aspect is the art. I would love to write a game beautiful enough to be an oil painting, but without an artist in tow, it will never be.  Therefore we began to cast about for an aesthetic that was attractive, but achievable by two artistically disadvantaged coders.
 
 I've seen it written that the Neon aesthetic was *created by programmers who can't draw*.  This may be a true statement, in fact we went that route with [Boxel](https://itunes.apple.com/us/app/boxel/id441537386?mt=8), but Neon is rather too strident for a platformer like *Fork* so we moved on.  The retro pixellated look was quickly discarded as cliché-common, and for the most part rather ugly before we settled on Flat UI.  The simple bold style requires a minimal level of technical skill to achieve, yet when combined with abstract tiled patterns can be very attractive indeed. Flat UI reflects the bright and cheery atmosphere for *Fork* and fits well with the new generation of phones and tablets that *Fork* is destined to run on. 
-
-### themes
-
-- science fiction
-- exploration
