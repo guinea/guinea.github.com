@@ -26,9 +26,11 @@ Ten years after Neil Armstrong parked his spaceship in the Sea of Tranquility, A
 
 The tragedy with *Lunar Lander* is that no matter how skilfully you land you spaceship you can't get out and explore.  `Fork` fixes this.  Zelda's *overworld* is replaced by a galaxy full of planets, and you fly between them in your *Lunar Lander* inspired spaceship.
 
-### Mario Galaxy
+### Super Mario Galaxy
 
-*Withers?*
+Yes, it may be no surprise that the best-selling video game franchise of all time has influenced our creation. There is also no doubt that SMG is a fantastic creation on all counts. It looks fantastic. The Wii controls are both intuitive and innovative. The universe within is huge with an amazing amount to explore. 
+
+But perhaps you wouldn't expect to see the Italian handyman in a list like this. Except for one thing: SMG contains kinda-spherical levels and a gravitational field to match, and this gives rise to a beautiful perspective-skewing cerebral gameplay experience. If I had to pick an alternative activity to put me in the same mental state, I might say watching [Primer](http://xkcd.com/657/) on repeat whilst taped to a rotating office chair. If you don't own a Wii, fret not. I present you with a third option: we like to think you will have a similar mental experience asteroid hopping in *Fork*. 
 
 ### Flat UI / Windows Metro
 
