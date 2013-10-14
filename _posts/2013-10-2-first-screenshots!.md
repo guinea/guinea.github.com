@@ -1,7 +1,9 @@
 ---
-title: First screenshots
+title: First screenshots!
 layout: post
 ---
+
+<img class="teaser" src="/images/teasers/teaser-2.png" />
 
 Somehow 6 months has passed since we first posted to this blog.  In that time we have been coding, drawing, writing, rewriting and playing *fork*, but we haven't written anything about it.  Now that the engine is largely finished, the content is taking shape, and we are beginning to plan for a beta of the first 3 levels, the time has come to go on the record about *fork* with our first set of screenshots.   
 

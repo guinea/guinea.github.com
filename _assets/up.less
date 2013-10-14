@@ -135,8 +135,61 @@ section.content {
   div.pull {
     padding-top: 20px;
   }
+  section.contactbar{
+	padding: 30px;
+    text-align: center;
+    a {
+      font-size: 0.8em;
+      color: #555;
+      text-decoration: none;
+      transition: color 0.25s ease-in;
+      -webkit-transition: color 0.25s ease-in;
+      text-align: center;
+      &:hover {
+        color: #307EA9;
+      }
+    }	
+   }
+  img.teaser{
+  	float:left;
+  	height:30px;
+  	margin:20px;
+  }
+  img.headingdecoration{
+  	float:left;
+  	height:30px;
+  	margin:0px;
+  	padding-left: 0px;
+  	padding-right: 10px;
+  }
+  
+  div.leftmaincol{
+  	    margin-right: 10px;
+  }
+  div.rightmaincol{
+  	    margin-left: 10px;
+  }
 }
-
+section.screenshots{
+	img {
+    max-width: 100%;
+    max-height: 100%;
+    // box-shadow: 0 0 20px #bbb;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &.noclip {
+      clear: both;
+      // box-shadow: none;
+      display: inline-block;
+    }
+    // &.noshadow {
+    //   box-shadow: none;
+    // }
+  }
+}
 
 ul.listing {
   margin: 0 0 25px 0;
@@ -160,6 +213,7 @@ div.navbar a.brand {
   font-weight: 100;
   text-transform: uppercase;
 }
+
 #footer {
   margin-top: 50px;
   border-top: 1px solid #f5f5f5;
@@ -168,6 +222,7 @@ div.navbar a.brand {
     color: #EEE;
     text-align: center;
     a {
+      align: center;
       font-size: 0.8em;
       color: #555;
       text-decoration: none;
