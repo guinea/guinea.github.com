@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fork's inspirations
+title: Last Orbit's inspirations
 ---
 
 No creative endeavour exists in a vacuum.   From the first troglodyte painter mimicking the forms and tones of nature on his cave wall, to today's indie game developers, the act of creation has always been inspired by something.  In this post I will put on record our inspirations for our new game, *Last Orbit*.
