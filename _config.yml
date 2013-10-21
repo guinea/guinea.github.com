@@ -4,7 +4,7 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
-title : Felwig Studio
+title : Felwig Studios
 production_url : http://felwig.com/
 description: ""
 analytics: UA-24490825-1

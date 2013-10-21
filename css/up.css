@@ -729,4 +729,4 @@ ul.listing{margin:0 0 25px 0;padding:0}ul.listing li{list-style-type:none;paddin
 div.navbar,div.navbar a.brand{font-weight:100;text-transform:uppercase}
 #footer{margin-top:50px;border-top:1px solid #f5f5f5}#footer section.meta{padding:30px;color:#eee;text-align:center}#footer section.meta a{align:center;font-size:.8em;color:#555;text-decoration:none;transition:color .25s ease-in;-webkit-transition:color .25s ease-in}#footer section.meta a:hover{color:#307ea9}
 #footer i.icon{display:block;margin:auto}
-@media (max-width:767px){#footer .col-span-2.next{margin-top:30px}}
+@media (max-width:767px){#footer .col-span-2.next{margin-top:30px}}div.signup{background-color:#000;color:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
