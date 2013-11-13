@@ -4,13 +4,12 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
-title : Felwig Studios
+title : Felwig Games
 production_url : http://felwig.com/
 description: ""
 analytics: UA-24490825-1
-# gauges: 50f2b533613f5d7c8000000c
 author :
-  name : Felwig Studio
+  name : Felwig Games
   github : felwig
   twitter : felwig
   email: felwig@gmail.com
