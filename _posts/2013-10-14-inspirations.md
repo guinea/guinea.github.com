@@ -3,7 +3,7 @@ layout: post
 title: Star Life's inspirations
 ---
 
-<img class="teaser" src="/images/teasers/teaser-3.png" />
+<img class="teaser" src="/images/teasers/teaser-4.png" />
 
 No creative endeavour exists in a vacuum.   From the first troglodyte painter mimicking the forms and tones of nature on his cave wall, to today's indie game developers, the act of creation has always been inspired by something.  In this post I will put on record our inspirations for our new game, *Star Life*.
 
