@@ -5,4 +5,28 @@
 // up theme
 @import 'up';
 
+.post-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 
+    .post-body {
+
+
+        p {
+            font-family: "Merriweather", Times, serif;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 1.75;
+            letter-spacing: 0.03px;
+            color: #444;
+        }
+    }
+
+    h1 {
+        .twitter-share-button {
+            float: right;
+        }
+    }
+
+}
