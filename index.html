@@ -4,33 +4,39 @@ title: "Felwig Games"
 ---
 
 <section class="content">
-  	{% include header.html %}
+    {% include header.html %}
 
-<div class="row">
-  	<div class="col-span-6">
-  	<div class="leftmaincol">
-  		<div class="row">
-  			{% include abstract.html %}
-  		</div>
-  			{% include screenshots.html %}
-  	</div>
-	</div>
-    <div class="col-span-6">
-     <div class="rightmaincol">
-     <div class="row">
-      <h1 class="thin">DEVELOPMENT BLOG</h1>
-      </div>
-       <div class="row">
-       <ul class="listing">
-        {% for post in site.posts %}
-         <li>
-          <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-         </li>
-        {% endfor %}
-       </ul>
-       </div>
-      </div>
+    <div class="row">
+        <div class="col-span-2"></div>
+        <div class="col-span-8">
+            {% include abstract.html %}
+        </div>
+        <div class="col-span-2"></div>
+    <div>
     </div>
-</div>
+    <div class="row">
+        <div class="col-span-6">
+            <div class="leftmaincol">
+                {% include screenshots.html %}
+            </div>
+        </div>
 
+        <div class="col-span-6">
+            <div class="rightmaincol">
+                <div class="row">
+                    <h1 class="thin">DEVELOPMENT BLOG</h1>
+                </div>
+
+                <div class="row">
+                    <ul class="listing">
+                        {% for post in site.posts %}
+                            <li>
+                                <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
