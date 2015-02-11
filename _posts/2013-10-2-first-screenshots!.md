@@ -1,6 +1,6 @@
 ---
-title: First screenshots!
 layout: post
+title: First screenshots
 ---
 
 <img class="teaser" src="/images/teasers/teaser-2.png" />
@@ -30,4 +30,3 @@ The difference is that whereas in Zelda and Cave story, the over world is quite 
 Finally, a glimpse at our ice planet.  The renderer is in progress, but it shows you the variety we are aiming for in *fork*'s world.
 
 ![ice planet](/images/1-ice.png)
-
