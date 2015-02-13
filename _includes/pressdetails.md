@@ -22,6 +22,8 @@ To be decided - In development
 
 **Momoka**is an adventure platformer set in a constellation of planets.  Join our heroine as she jumps in her spaceship and heads off around her galaxy to find out why her star is dying. The game moves seamlessly from a 360 degree space shooter to a platform game on and within each planet.
 
+Please note that momoka is still in development.  This site and this summary page will be updated and expanded in the course of development.
+
 ### Tech
 
 Momoka is written for iOS 7, supporting both iPhone and iPad.  
