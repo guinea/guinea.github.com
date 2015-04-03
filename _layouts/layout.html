@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
   <link href="/css/main.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -49,6 +49,8 @@
       <a class="navbar-brand" href="/">{{ site.title }}</a>
       <div class="nav-collapse collapse navbar-responsive-collapse">
         <ul class="nav pull-right hidden-print">
+
+<!--
          <li>
             <a class="hidden-phone" title="About me" href="/about.html">
               <i class="icon-user icon-large"></i>
@@ -57,7 +59,8 @@
               <i class="icon-user icon-large"></i>
               About me
             </a>
-          </li>
+          </li> -->
+<!--
           <li>
             <a class="hidden-phone" href="/atom.xml" title="Atom Feed">
               <i class="icon-rss icon-large"></i>
@@ -66,35 +69,25 @@
               <i class="icon-rss icon-large"></i>
               Atom Feed
             </a>
+          </li> -->
+          <li>
+              <a class="hidden-phone" title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}">
+                  <i class="icon-twitter icon-large"></i>
+              </a>
+              <a class="visible-phone" title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}">
+                  <i class="icon-twitter icon-large"></i>
+                  Follow us on Twitter
+              </a>
           </li>
           <li>
-            <a class="hidden-phone" title="Github profile" href="https://github.com/{{ site.author.github }}">
-              <i class="icon-github icon-large"></i>
-            </a>
-            <a class="visible-phone" title="Github profile" href="https://github.com/{{ site.author.github }}">
-              <i class="icon-github icon-large"></i>
-              Github profile
-            </a>
-          </li>
-          <li>
-            <a class="hidden-phone" title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}">
-              <i class="icon-twitter icon-large"></i>
-            </a>
-            <a class="visible-phone" title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}">
-              <i class="icon-twitter icon-large"></i>
-              Follow us on Twitter
-            </a>
-          </li>
-          <li>
-            <a class="hidden-phone" title="Last Orbit on Facebook" href="https://www.facebook.com/pages/Last-Orbit/667430589947536">
+            <a class="hidden-phone" title="Momoka on Facebook" href="https://www.facebook.com/MomokaGame">
               <i class="icon-facebook icon-large"></i>
             </a>
-            <a class="visible-phone" title="Last Orbit on Facebook" href="https://www.facebook.com/pages/Last-Orbit/667430589947536">
+            <a class="visible-phone" title="Momoka on Facebook" href="https://www.facebook.com/MomokaGame">
               <i class="icon-facebook icon-large"></i>
-              Last Orbit on Facebook
+              Momoka on Facebook
             </a>
           </li>
-          
         </ul>
       </div>
     </div>
@@ -109,40 +102,32 @@
   <section class="meta">
       <div class="container">
         <div class="row">
-      	  <div class="col-span-2"></div>
+      	  <div class="col-span-3"></div>
           <div class="col-span-2">
             <a href="mailto:felwig@gmail.com">
-              <i class="icon icon-envelope icon-4x"></i>
+              <i class="fa fa-envelope-o fa-4x"></i>
               <div>
                 Email us
               </div>
             </a>
           </div>
           <div class="col-span-2">
-            <a href="/about.html">
-              <i class="icon icon-envelope-alt icon-4x"></i>
+            <a href="/landing.html">
+              <i class="fa fa-envelope fa-4x"></i>
               <div>
                 Join our mailing list
               </div>
             </a>
-          </div>
-
-          <div class="col-span-2 next">
-            <a href="https://www.facebook.com/pages/Last-Orbit/667430589947536">
-             <div class="fb-like-box" data-href="https://www.facebook.com/pages/Last-Orbit/667430589947536" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="true"></div>
-            </a>
-          </div>
-
-
+          </div>          
           <div class="col-span-2">
-            <a href="https://twitter.com/{{ site.author.twitter }}">
-              <i class="icon icon-twitter icon-4x"></i>
-              <div>Follow us on Twitter</div>
-            </a>
+              <a href="/press.html">
+                  <i class="fa fa-newspaper-o fa-4x"></i>
+                  <div>
+                      Press
+                  </div>
+              </a>
           </div>
-          
-
-          <div class="col-span-2"></div>
+          <div class="col-span-3"></div>
         </div>
       </div>
        </section>
