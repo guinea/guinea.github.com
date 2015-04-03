@@ -18,6 +18,11 @@ body {
     color: $headingColour;
 }
 
+body.mainsite{
+    background-color: #fff;
+}
+
+
 p {
     color: $readingColour;
 }
@@ -45,11 +50,41 @@ p {
 }
 
 
+.landing-box {
+    margin-top: 80px;
+    font-family: $readingFont;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.75;
+    letter-spacing: 0.03px;
+    background-color: #333;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    p {
+        color: #fff;
+    }
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 
 
+}
 
 
+body.landingsite{
+    background: url("/images/2-forest.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    a{
+    color: #fff;
 
-
+    }
+    .bloglink{
+        margin-top: 30px;
+    }
+}
 

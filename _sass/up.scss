@@ -198,8 +198,8 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #333;
-    background-color: #fff;
 }
+
 input, button, select, textarea {
     font-family: inherit;
     font-size: inherit;
@@ -3128,10 +3128,4 @@ div.navbar, div.navbar a.brand {
     margin-top: 30px;
 }
 }
-div.signup {
-    background-color: #000;
-    color: #fff;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
+
