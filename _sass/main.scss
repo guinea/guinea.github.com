@@ -46,7 +46,7 @@ p {
 }
 
 
-.abstract-box {
+.abstract-box, .error-box{
     margin-top: 50px;
     font-family: $readingFont;
     font-weight: 300;
@@ -98,7 +98,6 @@ body.post{
 }
 
 
-
 #footer section.meta {
     padding: 30px;
     color: #999;
@@ -119,3 +118,5 @@ body.post{
     display: block;
     margin: auto;
 }
+
+
