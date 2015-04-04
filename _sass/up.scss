@@ -193,12 +193,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%}
 }
-body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    color: #333;
-}
+
 
 input, button, select, textarea {
     font-family: inherit;
@@ -1924,10 +1919,9 @@ a.list-group-item.active .list-group-item-text {
 }
 }
 .thumbnail, .img-thumbnail {
-    padding: 4px;
+    padding: 2px;
     line-height: 20px;
     background-color: #fff;
-    border: 1px solid #ddd;
     border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -3060,12 +3054,7 @@ section.content img.headingdecoration {
     padding-left: 0;
     padding-right: 10px;
 }
-section.content div.leftmaincol {
-    margin-right: 10px;
-}
-section.content div.rightmaincol {
-    margin-left: 10px;
-}
+
 section.screenshots img {
     max-width: 100%;
     max-height: 100%;
@@ -3099,30 +3088,7 @@ div.navbar, div.navbar a.brand {
     font-weight: 100;
     text-transform: uppercase;
 }
-#footer {
-    margin-top: 50px;
-    border-top: 1px solid #f5f5f5;
-}
-#footer section.meta {
-    padding: 30px;
-    color: #eee;
-    text-align: center;
-}
-#footer section.meta a {
-    align: center;
-    font-size: .8em;
-    color: #555;
-    text-decoration: none;
-    transition: color .25s ease-in;
-    -webkit-transition: color .25s ease-in;
-}
-#footer section.meta a:hover {
-    color: #307ea9;
-}
-#footer i.icon {
-    display: block;
-    margin: auto;
-}
+
 @media (max-width:767px) {
     #footer .col-span-2.next {
     margin-top: 30px;

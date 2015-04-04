@@ -18,10 +18,6 @@ body {
     color: $headingColour;
 }
 
-body.mainsite{
-    background-color: #fff;
-}
-
 
 p {
     color: $readingColour;
@@ -49,15 +45,12 @@ p {
     }
 }
 
-.abstract-box{
-    margin-bottom: 40px;
-}
 
-.landing-box {
-    margin-top: 80px;
+.abstract-box {
+    margin-top: 50px;
     font-family: $readingFont;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.75;
     letter-spacing: 0.03px;
     background-color: #333;
@@ -65,29 +58,64 @@ p {
     -moz-border-radius: 10px;
     border-radius: 10px;
     p {
-        color: #fff;
+        color: #eee;
     }
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 30px;
+}
 
-
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: #999;
 }
 
 
-body.landingsite{
-    background: url("/images/2-forest.png") no-repeat center center fixed;
+
+body.mainsite{
+    background: url("/images/2-forest.png") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
     a{
-    color: #fff;
-
-    }
-    .bloglink{
-        margin-top: 30px;
+        color: #eee;
     }
 }
 
+body.post{
+
+    background-color:#fff
+}
+
+.blog-area{
+    margin-top: 100px;
+    background-color: #333;
+    overflow: visible;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+
+#footer section.meta {
+    padding: 30px;
+    color: #999;
+    text-align: center;
+}
+#footer section.meta a {
+    align: center;
+    font-size: .8em;
+    color: #999;
+    text-decoration: none;
+    transition: color .25s ease-in;
+    -webkit-transition: color .25s ease-in;
+}
+#footer section.meta a:hover {
+    color: #307ea9;
+}
+#footer i.icon {
+    display: block;
+    margin: auto;
+}

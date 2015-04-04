@@ -38,7 +38,7 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
+<!--
   <div class="navbar navbar-fixed-top">
     <div class="container">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -50,7 +50,7 @@
       <div class="nav-collapse collapse navbar-responsive-collapse">
         <ul class="nav pull-right hidden-print">
 
-<!--
+
          <li>
             <a class="hidden-phone" title="About me" href="/about.html">
               <i class="icon-user icon-large"></i>
@@ -59,8 +59,8 @@
               <i class="icon-user icon-large"></i>
               About me
             </a>
-          </li> -->
-<!--
+          </li>
+
           <li>
             <a class="hidden-phone" href="/atom.xml" title="Atom Feed">
               <i class="icon-rss icon-large"></i>
@@ -69,8 +69,8 @@
               <i class="icon-rss icon-large"></i>
               Atom Feed
             </a>
-          </li> -->
-          <li>
+          </li> 
+            <li>
               <a class="hidden-phone" title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}">
                   <i class="icon-twitter icon-large"></i>
               </a>
@@ -92,44 +92,14 @@
       </div>
     </div>
   </div>
-
-    <div class="container">
-        {{ content }}
-    </div>
-
-  <div id="footer" class="hidden-print">
  
-  <section class="meta">
-      <div class="container">
-        <div class="row">
-          <div class="col-offset-3 col-span-2">
-            <a href="mailto:felwig@gmail.com">
-              <i class="fa fa-envelope-o fa-4x"></i>
-              <div>
-                Email us
-              </div>
-            </a>
-          </div>
-          <div class="col-span-2">
-            <a href="/landing.html">
-              <i class="fa fa-envelope fa-4x"></i>
-              <div>
-                Join our mailing list
-              </div>
-            </a>
-          </div>          
-          <div class="col-span-2">
-              <a href="/press.html">
-                  <i class="fa fa-newspaper-o fa-4x"></i>
-                  <div>
-                      Press
-                  </div>
-              </a>
-          </div>
-        </div>
-      </div>
-       </section>
-  </div>
+ -->
+
+
+  {{ content }}
+
+
+
   {% include analytics.html %}
   {% include gauges.html %}
 </body>

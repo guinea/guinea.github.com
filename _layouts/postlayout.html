@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,17 +26,31 @@
   
   <script src="https://platform.twitter.com/widgets.js"></script>
 
+
 </head>
 
-<body class="landingsite">
-    
+<body class="post">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-
-  <div class="container">
-    {{ content }}
+  <div class="navbar navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">{{ site.title }}</a>
+    </div>
   </div>
+ 
 
-   {% include analytics.html %}
+  {{ content }}
+
+
+
+  {% include analytics.html %}
   {% include gauges.html %}
 </body>
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
