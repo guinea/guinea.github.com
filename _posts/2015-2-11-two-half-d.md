@@ -15,7 +15,7 @@ With the engine finished we have been able to make a start on the levels.  The s
 
 ![Castle level](/images/2-forest.png)
 
-We’ll try not to leave it 14 months until the next post.  We have a lot of work to finish the first two levels and the story and material between them, not to mention the work we have planned on the graphics, but once that is done we will be releasing a beta. [Join up here if you are interested](/about.html).
+We’ll try not to leave it 14 months until the next post.  We have a lot of work to finish the first two levels and the story and material between them, not to mention the work we have planned on the graphics, but once that is done we will be releasing a beta. [Join up here if you are interested](/).
 
 ![Maze](/images/2-maze.png)
 
