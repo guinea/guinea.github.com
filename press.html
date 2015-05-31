@@ -1,10 +1,239 @@
----
-layout: postlayout
----
 
-<section class = "content post-content">
-    <h1>Press Kit</h1>
-    <div class="post-body">
-        {% include pressdetails.html %}
-    </div>    
-</section>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" value="IE=9">
+		<title>Felwig Games - Momoka</title>
+		<link href="css/presskit.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="validation.js"></script>
+		<script>
+			$(window).load( function() {
+				checkVis("factsheet");
+				checkVis("description");
+				checkVis("history");
+				checkVis("features");
+				checkVis("trailers");
+				checkVis("screenshots");
+				checkVis("logo");
+				checkVis("links");
+				checkVis("about");
+				checkVis("credits");
+				checkVis("contact");
+			} );
+
+			$(window).scroll( function() {
+				checkVis("factsheet");
+				checkVis("description");
+				checkVis("history");
+				checkVis("features");
+				checkVis("trailers");
+				checkVis("screenshots");
+				checkVis("logo");
+				checkVis("links");
+				checkVis("about");
+				checkVis("credits");
+				checkVis("contact");
+			} );
+
+			function checkVis(elem) {
+				if( isVis( "#"+elem ) ) $("#m-"+elem).css("color","#000"); else $("#m-"+elem).css("color","#666");
+			}
+
+			function isVis(elem) {
+				var docViewTop = $(window).scrollTop();
+				var docViewBottom = docViewTop + $(window).height();
+				var elemTop = $(elem).offset().top;
+				var elemBottom = elemTop + $(elem).height();
+				return ( (elemBottom >= docViewTop && elemBottom <= docViewBottom) || (elemTop <= docViewBottom && elemTop >= docViewTop) || (elemTop <= docViewTop && elemBottom >= docViewBottom) );
+			}
+		</script>
+
+		<base target="_blank" />
+	</head>
+
+	<body>
+		<div id="container">
+		    <div id="navigation">
+		        <p><h1 id="game-title">Momoka</h1>
+		        <strong><a href="index.php" target="_self">press kit</a></strong></p>
+		        <br/>
+		        <ul>
+		            <li><a href="#factsheet" id="m-factsheet" target="_self">Factsheet</a></li>
+		            <li><a href="#description" id="m-description" target="_self">Description</a></li>
+		            <li><a href="#history" id="m-history" target="_self">History</a></li>
+		            <li><a href="#features" id="m-features" target="_self">Features</a></li>
+		            <li><a href="#trailers" id="m-trailers" target="_self">Videos</a></li>
+		            <li><a href="#screenshots" id="m-screenshots" target="_self">Screenshots</a></li>
+		            <li><a href="#logo" id="m-logo" target="_self">Logo & Icon</a></li>
+		            <li><a href="#about" id="m-about" target="_self">About Alexander Bruce</a></li>
+		            <li><a href="#credits" id="m-credits" target="_self">Credits</a></li>
+		            <li><a href="#contact" id="m-contact" target="_self">Contact</a></li>
+		        </ul>
+		    </div>
+
+		    <div id="content">
+		        <img src="images/abstract-banner.png" id="header" width="960" />
+
+		        <div id="factsheet">
+		        <h2>Factsheet</h2>
+
+		        <p><strong>Developer:</strong><br/>
+		        <a href="/index.html">Felwig Games</a><br/>
+		        Based in the UK<br/></p>
+
+		        <p><strong>Release date:</strong><br/>
+		        TBA (in development)<br/></p>
+
+		        <p><strong>Platforms:</strong><br/>
+		        iOS initially, followed by OSX/PC on steam<br/></p>
+
+		        <p><strong>Website:</strong><br/>
+		        <a href="http://felwig.com">felwig.com</a><br/></p>
+
+		        <p><strong>Regular Price:</strong><br/>
+				TBA
+		        </p>
+		        </div>
+
+		        <div id="right-of-factsheet">
+		            <div id="description">
+			            <h2>Description</h2>
+
+						Momoka is an adventure platformer set in a constellation of planets. Join our heroine as she jumps in her spaceship and heads off around her galaxy to find out why her star is dying. The game moves seamlessly from a 360 degree space shooter to a platform game on and within each planet.
+			        </div>
+
+		            <div id="history">
+			            <h2>History</h2>
+
+						<p>Our first game for iOS was the elite-like exploration game <em>Firmament</em> back in the early days of the App Store. After that we experimented with a number of game prototypes before we settled upon Momoka’s mechanics.</p>
+						<p>The intention with Momoka is to write an exploration &amp; adventure game in the vein of Zelda &amp; Metroid for iOS, but with the great platforming action and controls expected on iOS. This style of gameplay fits iOS well, for although the story is immersive and detailed it allows the game to be played in short bursts by casual gamers if required.</p>
+						<p>Unique to Momoka is that the action takes place on round planets, which our heroine can move between by jumping in a rocket and taking off. The game smoothly transitions from platforming to lander-like flying between planets.</p>
+						<p>The 2.5D approach keeps the controls simple, sharp and iOS appropriate by restricting the mechanics to that of a platformer, whilst still giving players the beautiful and cutting edge experience they have come to expect from the best of iOS games.</p>
+				    </div>
+
+		            <div id="features">
+		            <h2>Features</h2>
+			            <ul>
+							<li>Free exploration.</li>
+			            	<li>Seamlessly move from planet to planet in your ship.</li>
+							<li>MFI Controller Support.</li>
+					    </ul>
+		            </div>
+		        </div>
+
+		        <div class="clear" />
+
+		        <div id="trailers">
+				<h2>Videos</h2>
+		        <p><strong>Teaser</strong>Put some video here</p>
+				</div>
+
+					<!-- Clear -->
+		        <div class="clear" />
+
+		        <!-- Screenshots start -->
+		        <div id="screenshots">
+			        <h2>Screenshots</h2>
+			        <a href="downloads/presskit.zip">
+						<div id="media-download">
+							TODO - download all screenshots &amp; photos as .zip (11MB)
+						</div>
+					</a>
+					<a href="images/2-forest.png">
+						<div class="preview-wrapper">
+							<img class="preview" src="images/2-forest.png"/>
+						</div>
+					</a>
+					<a href="images/2-generator.png">
+						<div class="preview-wrapper">
+							<img class="preview" src="images/2-generator.png"/>
+						</div>
+					</a>
+					<a href="images/2-maze.png">
+						<div class="preview-wrapper">
+							<img class="preview" src="images/2-maze.png"/>
+						</div>
+					</a>
+					<a href="images/2-robots.png">
+						<div class="preview-wrapper">
+							<img class="preview" src="images/2-robots.png"/>
+						</div>
+					</a>
+		        </div>
+
+				<!-- Clear -->
+		        <div class="clear" />
+
+		        <div id="logo">
+			        <h2>Logo & Icon</h2>
+					<p>TODO</p>
+		        </div>
+
+				<!--
+		        <div class="clear" />
+		        <div id="quotes">
+			        <h2>Selected Articles</h2>
+			        <ul>
+						<li>
+							<p>"Some quote here"<p/>
+							<cite> - Reviewer name, <a href="somelinkhere">GamesBeat</a></cite>
+						</li>
+					</ul>
+				</div>
+				-->
+
+				<!-- Clear -->
+		        <div class="clear" />
+
+
+		        <!-- Links -->
+		        <div id="links">
+			        <h2>Additional Links</h2>
+			        <p>
+						<strong>Twitter</strong>
+					</p>
+					<p>
+						Follow felwig (@felwig) on Twitter:  <a href="http://twitter.com/felwig">twitter.com</a>
+					</p>
+			        <p>
+						<strong>Facebook</strong>
+					</p>
+					<p>
+						Follow felwig on Facebook:  <a href="">twitter.com</a>
+					</p>
+				</div>
+
+				<!-- Clear -->
+		        <div class="clear" />
+
+				<!-- About -->
+		        <div id="about">
+			        <h2>About Felwig</h2>
+			        <p>
+						<strong>Boilerplate</strong><br/>
+						Felwig make and play games.
+					</p>
+		        </div>
+
+		        <div class="clear" />
+
+		        <div id="credits">
+			        <h2>Momoka Credits</h2>
+			        <p><strong>Felwig Games</strong><br/>Creator</p>
+				</div>
+
+		        <div id="contact">
+			        <h2>Contact</h2>
+			        <p><strong>Inquiries</strong><br/><a href="mailto:felwig@gmail.com">alex@demruth.com</a></p>
+				</div>
+
+		        <div class="clear" />
+
+				<p class="credits"><a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="http://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href="?p=credits">these fine folks</a></p>
+		    </div>
+		</div>
+	</body>
+</html>
