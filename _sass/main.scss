@@ -22,6 +22,7 @@ p {
     color: $readingColour;
 }
 
+
 .presskit {
     h3 {
         border: none;
@@ -140,16 +141,45 @@ body.post{
     margin: auto;
 }
 
+/*
+    Front page video data
+ */
+
+$bgimagewidth: 900px;
+$bgimageheight: 444px;
+$bgimagehpad: 100px;
+$bgimagevpad: 30px;
+$vidaspect: 16.0 / 9.0;
+
+// calculated
+$wrapwidth: $bgimagewidth - 2 * $bgimagehpad;
+$wrapheight: $bgimageheight - 2 * $bgimagevpad;
+$vidheight: $wrapwidth / $vidaspect;
+
+.ipadvideocontainer {
+    background-image: url("/images/iphone6plus.png");
+
+    background-size: 100%;
+    background-color: transparent;
+
+    width: $bgimagewidth;
+    height: $bgimageheight;
+    padding-left: $bgimagehpad;
+    padding-right: $bgimagehpad;
+    padding-top: $bgimagevpad;
+    padding-bottom: $bgimagevpad;
+}
+
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    height: 0;
+    width:  $wrapwidth;
+    height: $wrapheight;
 }
+
 .videoWrapper iframe {
     position: absolute;
-    top: 0;
+    top: 0.5 * ($wrapheight - $vidheight);
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: $wrapwidth;
+    height: $vidheight;
 }
