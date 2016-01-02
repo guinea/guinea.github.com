@@ -183,3 +183,9 @@ $vidheight: $wrapwidth / $vidaspect;
     width: $wrapwidth;
     height: $vidheight;
 }
+
+.infobox {
+    img {
+        width: 100%
+    }
+}
