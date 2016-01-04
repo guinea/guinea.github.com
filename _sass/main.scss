@@ -242,6 +242,13 @@ $featurepad: 30px;
     padding-right: $infoboxpadding;
 }
 
+.logo {
+    width:100%;
+    max-width: 512px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .featurerow {
     overflow:auto;
     margin-top: $infoboxpadding;
@@ -252,7 +259,7 @@ $featurepad: 30px;
     }
 
     img {
-        min-width: 250px;
+        min-width: 300px;
         width: 30%;
 
         padding: 2px;
