@@ -92,7 +92,11 @@ body {
     color: #999;
 }
 
-
+.vcentre {
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+}
 
 body.mainsite{
     background: url("/images/background.png") no-repeat center top fixed;
