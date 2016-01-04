@@ -249,6 +249,16 @@ $featurepad: 30px;
     margin-right:auto;
 }
 
+.socialbuttons {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+
+    a {
+        margin-right: 10px;
+    }
+}
+
 .featurerow {
     overflow:auto;
     margin-top: $infoboxpadding;
