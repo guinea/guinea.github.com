@@ -156,37 +156,44 @@ $bgimagevpad: 30px;
 $vidaspect: 16.0 / 9.0;
 
 // calculated
-$wrapwidth: $bgimagewidth - 2 * $bgimagehpad;
-$wrapheight: $bgimageheight - 2 * $bgimagevpad;
-$vidheight: $wrapwidth / $vidaspect;
+$framewidth: $bgimagewidth - 2 * $bgimagehpad;
+$frameheight: $bgimageheight - 2 * $bgimagevpad;
+$vidheight: $framewidth / $vidaspect;
+$vidhadjust: 0.5 * ($frameheight - $vidheight);
+
+@function fk-hscale($dima){
+  @return percentage($dima / $bgimagewidth);
+}
+
+@function fk-vscale($dima){
+  @return percentage($dima / $bgimageheight);
+}
 
 .ipadvideocontainer {
+    position: relative;
     background-image: url("/images/iphone6plus.png");
 
     background-size: 100%;
     background-color: transparent;
 
-    width: $bgimagewidth;
-    height: $bgimageheight;
-    padding-left: $bgimagehpad;
-    padding-right: $bgimagehpad;
-    padding-top: $bgimagevpad;
-    padding-bottom: $bgimagevpad;
-}
+    width: 100%;
 
-.videoWrapper {
+    padding: 0px;
+    padding-bottom: percentage($bgimageheight / $bgimagewidth);
+
+    box-sizing: border-box;
     position: relative;
-    width:  $wrapwidth;
-    height: $wrapheight;
+
+    iframe {
+        position: absolute;
+        top: fk-vscale($bgimagevpad + $vidhadjust);
+        left: fk-hscale($bgimagehpad);
+        width: fk-hscale($framewidth);
+        height: fk-vscale($vidheight);
+    }
 }
 
-.videoWrapper iframe {
-    position: absolute;
-    top: 0.5 * ($wrapheight - $vidheight);
-    left: 0;
-    width: $wrapwidth;
-    height: $vidheight;
-}
+
 
 .infobox {
     img {
