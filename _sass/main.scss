@@ -258,10 +258,9 @@ $featurepad: 30px;
         color: #eee;
     }
 
-    img {
-        min-width: 300px;
-        width: 30%;
-
+    .featureimage {
+        width: 320px;
+        max-width: none;
         padding: 2px;
         background-color: #fff;
         border-radius: 4px;
