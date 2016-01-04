@@ -5,13 +5,23 @@
 // up theme
 @import 'up';
 
+@font-face {
+    font-family: 'Barthowheel';
+    src: url('fonts/Barthowheel-Regular.ttf');
+}
+
 $readingFont: "Merriweather", Times, serif;
+$displayFont: "Barthowheel", Times, serif;
+
 $readingColour: #444;
 $headingColour: #333;
+$frontpageseparation: 50px;
+$bgColour: rgba(0, 0, 0, 0.4);
 
 $themeFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 body {
+    padding: 0px;
     font-family: $themeFont;
     font-size: 16px;
     line-height: 1.5;
@@ -45,6 +55,10 @@ p {
     }
 }
 
+.frontpagevflow {
+    margin-top: $frontpageseparation;
+}
+
 .post-content {
     max-width: 800px;
     margin-left: auto;
@@ -67,8 +81,7 @@ p {
     }
 }
 
-
-.abstract-box, .error-box{
+.error-box{
     margin-top: 50px;
     font-family: $readingFont;
     font-weight: 300;
@@ -193,10 +206,37 @@ $vidhadjust: 0.5 * ($frameheight - $vidheight);
     }
 }
 
-
-
 .infobox {
+    font-family: $readingFont;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.75;
+    letter-spacing: 0.03px;
+    background-color: $bgColour;
+    border-radius: 10px;
+
+    p {
+        color: #eee;
+    }
+
+    padding: 30px;
+
     img {
         width: 100%
+    }
+}
+
+.titlebox {
+    font-family: $displayFont;
+
+    h1 {
+        font-size: 100px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    h2 {
+        border: none;
+        font-size: 15px;
+        color: rgba(200, 200, 200, 1);
     }
 }
