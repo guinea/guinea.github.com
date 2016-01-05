@@ -46,25 +46,38 @@ p {
     }
 }
 
+$pressfontsize: 14px;
+$sectionSpacing: 40px;
+
 .presskit {
     width: 1024px;
     line-height: 1.5;
-
-    .leftbar {
-        h3 {
-            font-size: 18px;
-        }
-    }
 
     h3 {
         font-size: 18px;
         border: none;
         margin: 0;
         padding: 0;
+        margin-top: 5px;
+    }
+
+    .leftbar {
+        padding-top: $sectionSpacing;
+    }
+
+    .rightbar {
+        h3 {
+            margin-top: $sectionSpacing;
+        }
+    }
+
+    ul {
+        font-size: $pressfontsize;
+        color: $readingColour;
     }
 
     p {
-        font-size: 14px;
+        font-size: $pressfontsize;
         margin-left: 5px;
     }
 
@@ -284,6 +297,7 @@ $featurepad: 30px;
     p {
         color: #eee;
     }
+
 
     .featureimage {
         width: 320px;
