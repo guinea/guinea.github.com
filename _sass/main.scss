@@ -22,10 +22,13 @@ $themeFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 body {
     padding: 0px;
-    font-family: $themeFont;
+    font-family: $readingFont;
     font-size: 16px;
     line-height: 1.5;
     color: $headingColour;
+    font-size: 15px;
+    line-height: 20px;
+    color: #999;
 }
 
 p {
@@ -34,24 +37,29 @@ p {
 
 
 .presskit {
+    width: 1024px;
+    line-height: 1.5;
+
     h3 {
+        font-size: 18px;
         border: none;
-        margin-left: 0;
-        padding-left: 0;
+        margin: 0;
+        padding: 0;
     }
 
     p {
+        font-size: 14px;
         margin-left: 5px;
     }
 
-    .pressheader {
-        h3 {
+    img {
+        width: 100%;
+    }
 
-        }
-
-        p {
-
-        }
+    .presskitlogo {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -96,13 +104,6 @@ p {
         color: #eee;
     }
     padding: 30px;
-}
-
-body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    color: #999;
 }
 
 .vcentre {
