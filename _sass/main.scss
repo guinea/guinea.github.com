@@ -35,10 +35,26 @@ p {
     color: $readingColour;
 }
 
+.floatingpressnav {
+    position:fixed;
+    width: 10%;
+    left:10px;
+    top:100px;
+
+    ul {
+        list-style-type: none;
+    }
+}
 
 .presskit {
     width: 1024px;
     line-height: 1.5;
+
+    .leftbar {
+        h3 {
+            font-size: 18px;
+        }
+    }
 
     h3 {
         font-size: 18px;
