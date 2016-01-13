@@ -91,6 +91,10 @@ $sectionSpacing: 40px;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .appstorebadgesmall {
+        width: 100px;
+    }
 }
 
 .frontpagevflow {
@@ -280,13 +284,24 @@ $featurepad: 30px;
     margin-right:auto;
 }
 
+$margin: 10px;
+
+.appstoreicon {
+    position: absolute;
+    left: $margin;
+    text-align: right;
+}
+.appstorebadge {
+    width: 250px;
+}
+
 .socialbuttons {
     position: absolute;
-    right: 10px;
+    right: $margin;
     text-align: right;
 
     a {
-        margin-right: 10px;
+        margin-right: $margin;
     }
 }
 
