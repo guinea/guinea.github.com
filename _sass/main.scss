@@ -290,11 +290,12 @@ $margin: 10px;
     position: absolute;
     left: $margin;
     text-align: right;
+    .appstorebadge {
+        width: 250px;
+        margin: 0px;
+        padding: 0px;
+    }
 }
-.appstorebadge {
-    width: 250px;
-}
-
 .socialbuttons {
     position: absolute;
     right: $margin;
