@@ -1,9 +1,6 @@
-markdown: rdiscount
 pygments: true
 permalink: /posts/:title
 auto: true
-rdiscount:
-  extensions: [smart]
 title : Felwig Games
 production_url : http://felwig.com/
 description: ""
